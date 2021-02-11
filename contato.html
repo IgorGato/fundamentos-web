@@ -4,37 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+
+    <ul class="menu">
         <li><a href="index.html" >Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Entre em contato comigo</h1>
-
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="40" rows="20"></textarea>
-        
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
-
-    <h2>Endereço</h2>
-    <p>Avenida Brasil Parque Ecológico de Americana</p>
-    <p>Americana - São Paulo</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.325665762932!2d-47.354969150177325!3d-22.753292385016906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89be0c3095e93%3A0xe788dc77056cb8ab!2sParque%20Ecol%C3%B3gico%20de%20Americana!5e0!3m2!1spt-BR!2sbr!4v1612913334231!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     
+    <h1 class="center">Entre em contato comigo</h1>
+
+    <div class="container mb-50">
+        <div>
+        
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50">
+
+            <p>Avenida Brasil Parque Ecológico de Americana</p>
+            <p>Americana - São Paulo</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.325665762932!2d-47.354969150177325!3d-22.753292385016906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89be0c3095e93%3A0xe788dc77056cb8ab!2sParque%20Ecol%C3%B3gico%20de%20Americana!5e0!3m2!1spt-BR!2sbr!4v1612913334231!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank" ><img src="/assets/icon-facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank" ><img src="/assets/icon-instagram.svg" alt=""></a>
+            <a href="https://www.twitter.com/" target="_blank" ><img src="/assets/icon-twitter.svg" alt=""></a>
+            
+        </div>
+        <p class="container">Todos os direitos reservados</p>
+
+    </footer>
+
+
 </body>
 </html>
