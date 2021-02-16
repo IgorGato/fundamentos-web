@@ -31,7 +31,6 @@ function validaEmail(){
     if(!email.value.length){
         txtEmail.innerHTML = 'Preencha com um email valído'
         txtEmail.style.color = "red"
-        setTimeout(function(){ txtEmail.style.display = 'none'} , 1300)
         emailok = false
         txtEmail.style.transition = '.7s ease'
     }
@@ -70,7 +69,7 @@ function validaAssunto(){
         txtAssunto.style.display = 'block'
         txtAssunto.innerHTML = 'Assunto Valido'
         txtAssunto.style.color = 'green'
-        setTimeout(function(){ txtAssunto.style.display = 'none'} , 1300)
+        setTimeout(function(){ txtAssunto.style.display = 'none'} , 1500)
         txtAssunto.style.transition = '.7s ease'
         assuntook = true
     }

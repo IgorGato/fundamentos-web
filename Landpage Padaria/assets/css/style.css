@@ -1,0 +1,105 @@
+.nave-link{ 
+    border: solid red 1px;
+} 
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    padding-left: 50px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+*, *::after, *::before{
+    font-family: 'Mukta', sans-serif;
+}
+
+.card{
+    cursor: pointer;
+}
+
+p{
+    color: #886a24;
+}
+
+.card-produto:hover{
+    background-color: #85610d;
+    color: white;
+    transform: scale(1.10);
+    transition: .5s ease;
+}
+
+.bg-brown, .text-muted{
+    color: #e9c269;
+    background-color: #fff6e2;;
+}
+
+.nav-link a{
+    padding-left: 10%;
+}
+
+.nav-link:hover a{
+    color: #e4ad2f;
+    transition: .5s ease;
+}
+
+.nav-link::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 32px;
+    transition: .7s ease;
+  
+    width: 20px;
+    height: 5px;
+    background: linear-gradient(270deg, #e4ad2f    0%, rgba(196, 196, 196, 0) 102.98%);
+  }
+  
+.nav-link:hover::after{
+    width: 40px;
+}
+
+
+
+h1, h2, h3, h4{
+    font-family: 'Lobster', sans-serif;
+    color: #b98a1d;
+}
+
+#produtos h3, #opinioes h3, footer h4{
+    color: #fcf3df;
+}
+
+.com-cor{
+    background-color: #dbc185;
+}
+
+.footer{
+    background-color: #856316;
+}
+
+.social-icon{
+    width: 35px;
+    height: 35px;
+    
+}
+
+.social-icon:hover path, .social-icon:hover circle {
+    fill: #fff;
+    transition: .7s ease;
+    transform: translate3d(0,-4px,0);
+}
+
+.menu-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.menu-icon:hover path, .menu-icon:hover circle{
+    fill: #9e8344;
+}
+
